@@ -12,7 +12,7 @@ app.use(bodyparser.json())
 app.listen(port,()=>{console.log("logg")})
 
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI||'mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/<dbname>?retryWrites=true&w=majority',{ useNewUrlParser: true} )
+mongoose.connect('mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/<dbname>?retryWrites=true&w=majority',{ useNewUrlParser: true} )
 .then(res=>console.log("loggedin"))
 .catch(err=>console.log(err))
 console.log(Schema)
@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
     next();
   });
 
-  if(process.env.NODE_ENV==="production"){
+  /*if(process.env.NODE_ENV!="production"){}*/
   
     app.use(express.static('my-app/build'))
     app.get('/',(req,res)=>{res.sendFile(path.join(__dirname,'my-app','build','index.html'))})
@@ -66,5 +66,5 @@ app.get("/api/gait", (req,res)=>{
 })
 
  
-  }
+  
 

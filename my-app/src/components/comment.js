@@ -14,7 +14,7 @@ class Comment extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         /*this.latestcomment = this.latestcomment.bind(this);*/
         
-        this.state={comment:"cant connect to database",typecomment:""}
+        this.state={comment:"",typecomment:""}
 
         
        
@@ -57,6 +57,9 @@ else{
       fetch(`/api/${this.props.blog}`)
       .then(res => res.json())
       .then(res=>this.setState({comment:res}) )
+
+
+      
       
       
  
