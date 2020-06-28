@@ -26,7 +26,7 @@ class Buttonlist extends React.Component {
       return(
       
      <div>
-     <button className="logo"onClick={this.homepage}>Physiodunkers Blog </button>
+     <button className="logo"onClick={this.homepage}>physiodunkers Blog </button>
        
      </div>
                    

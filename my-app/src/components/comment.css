@@ -41,7 +41,18 @@
 .commentheader{
     font-size: 100px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+
+    .commentheader{
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+  }
+
 .pretty{
     background-color: white;
 }
