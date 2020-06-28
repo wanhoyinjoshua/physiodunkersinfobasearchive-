@@ -14,7 +14,7 @@ class Comment extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         /*this.latestcomment = this.latestcomment.bind(this);*/
         
-        this.state={comment:"",typecomment:""}
+        this.state={comment:"cant connect to database",typecomment:""}
 
         
        
