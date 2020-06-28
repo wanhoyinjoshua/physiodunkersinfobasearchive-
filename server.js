@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PORT||4000;
 const bodyparser = require('body-parser');
 const Schema = require('./models/product.js')
+const path = require('path')
 
 app.use(bodyparser.json())
 
@@ -17,9 +18,7 @@ mongoose.connect('mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/
 console.log(Schema)
 
 
-if(process.env.NODE_ENV==="production"){
-  app.get("/",(req,res)=>{res.send("MOtherfucker")})
-}
+
 
 
 app.use(function(req, res, next) {
@@ -27,6 +26,12 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
   });
+
+  if(process.env.NODE_ENV==="production"){
+  
+    app.use(express.static('my-app/build'))
+    app.get('*',(req,res)=>{res.sendFile(path.join(__dirname,'my-app','build','index.html'))})
+  }
 
   
 
