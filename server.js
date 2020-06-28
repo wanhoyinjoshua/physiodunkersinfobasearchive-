@@ -12,7 +12,7 @@ app.use(bodyparser.json())
 app.listen(port,()=>{console.log("logg")})
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/<dbname>?retryWrites=true&w=majority',{ useNewUrlParser: true} )
+mongoose.connect(process.env.MONGODB_URI||'mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/<dbname>?retryWrites=true&w=majority',{ useNewUrlParser: true} )
 .then(res=>console.log("loggedin"))
 .catch(err=>console.log(err))
 console.log(Schema)
