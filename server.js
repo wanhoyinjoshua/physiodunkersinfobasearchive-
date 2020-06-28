@@ -17,7 +17,9 @@ mongoose.connect('mongodb+srv://joshua:verticalfifty@cluster0-oxepz.mongodb.net/
 console.log(Schema)
 
 
-
+if(process.env.NODE_ENV==="production"){
+  app.get("/",(req,res)=>{res.send("MOtherfucker")})
+}
 
 
 app.use(function(req, res, next) {
@@ -26,7 +28,7 @@ app.use(function(req, res, next) {
     next();
   });
 
-  app.get("/",(req,res)=>{res.send("MOtherfucker")})
+  
 
 app.get("/api/backpainmyth", (req,res)=>{
     const fetchdata =Schema.findById( { _id: "5ef7dc5a3ec5efbc2e1f0179" })
