@@ -35,11 +35,11 @@ app.use(function(req, res, next) {
 
   
 
-app.get("/api/backpainmyth", (req,res)=>{
+app.get("https://physiodunkersblog.herokuapp.com/api/backpainmyth", (req,res)=>{
     const fetchdata =Schema.findById( { _id: "5ef7dc5a3ec5efbc2e1f0179" })
     .then(ll=>res.json(ll.comment))
 })
-app.post("/api/backpainmyth", (req,res)=>{
+app.post("https://physiodunkersblog.herokuapp.com/api/backpainmyth", (req,res)=>{
     const updatecomment =  Schema.findByIdAndUpdate(
         { _id: "5ef7dc5a3ec5efbc2e1f0179" },
         { "$push": { comment: `${req.body.comment}` } },
