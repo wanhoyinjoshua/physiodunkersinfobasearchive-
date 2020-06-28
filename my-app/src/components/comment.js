@@ -110,15 +110,6 @@ var hi= myarray.map(item=><li key={item.toString()}className="commentstyle">{ite
        <div className="commentheader">
          Comment 
        </div>
-       <div className="typecomment">
-
-<form onSubmit={this.submitcomment} >
-  <input type={Text} className="commentinput"value={this.state.typecomment} placeholder="comment here"  onChange={this.handleChange}></input>
-  <button className="submitcomment"> Submit</button>
-
-
-</form>
-</div>
        <div className="pretty">
        <div className="comment">
 
@@ -130,7 +121,15 @@ var hi= myarray.map(item=><li key={item.toString()}className="commentstyle">{ite
 
        </div>
      
+     <div className="typecomment">
 
+       <form onSubmit={this.submitcomment} >
+         <input type={Text} className="commentinput"value={this.state.typecomment} placeholder="comment here"  onChange={this.handleChange}></input>
+         <button className="submitcomment"> Submit</button>
+
+
+       </form>
+     </div>
        
      </div>
                    
