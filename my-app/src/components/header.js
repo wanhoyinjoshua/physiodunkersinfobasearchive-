@@ -26,7 +26,11 @@ class Buttonlist extends React.Component {
       return(
       
      <div>
-     <button className="logo"onClick={this.homepage}>physiodunkers Blog </button>
+     <button className="logo"onClick={this.homepage}>
+       
+     <img className="logo"src={process.env.PUBLIC_URL + '/assets/images/y.png'} />
+       
+       </button>
        
      </div>
                    
