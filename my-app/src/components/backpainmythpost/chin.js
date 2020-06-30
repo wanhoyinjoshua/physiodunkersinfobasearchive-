@@ -11,9 +11,9 @@ export default function Chin() {
             <div className="Myth">點解我哋想講呢個話題?</div>
             <div className="image"><img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/intro.png'} /></div>
             <div className="explanantion">
-                有背痛絕對唔係一件好玩嘅事,可能你平時已經好忙,平時冇時間亦都冇精力去做研究關於自己嘅背痛,
-            可能你有對關於背痛嘅問題但係你唔知去邊度問,或者你自己對背痛已經有一定程度嘅理解,但係你唔肯定佢哋其實係咪正確 <br></br>無論你係屬於邊一類人
-            呢篇文章嘅目的係希望糾正你對背痛嘅誤解 希望你睇完之後對背痛有一個樂觀同埋正面嘅態度 冇咁驚背痛 
+            有背痛絕對唔係一件好玩嘅事， 可能你平時已經好忙，冇時間去研究自己嘅背痛，可能你有對關於背痛嘅問題，但係你唔知去邊度問，或者你自己對背痛已經有啲理解，但係唔肯定佢哋啱唔啱。
+無論你係屬於邊一類人，呢段片嘅目的係希望指出一哋關於背痛嘅常見的誤解，希望你睇完之後對背痛有一個樂觀同埋正面嘅態度，冇咁驚背痛。
+
             </div>
             </div>
             <div className="section1">
