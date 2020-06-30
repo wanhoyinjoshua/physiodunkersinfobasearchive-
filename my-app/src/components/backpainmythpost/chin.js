@@ -38,15 +38,14 @@ export default function Chin() {
 
                 <div className="Myth">誤解1 :死啦我有背痛呀 係咪好大件事㗎</div>
                 <div className="image"><img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/backpain.png'} /></div>
-                <div className="explanantion">我哋明你個背痛可能會覺得好擔心
-                                            了解多啲呢個背痛會令到你更加安心 ,
-                                             首先我哋要明白㗎係背痛嘅成日好多隻 , 
-                                             但係主要嚟講我哋都會分成三類別 <br></br>
+                <div className="explanantion">我哋明你有背痛可能會覺得好擔心
+所以了解多啲呢個背痛會令到你更加安心 , 首先我哋要明白背痛分成三種 , 第一個我哋會叫做嚴重嘅背痛例如，癌症啦發炎啦骨折等等㗎 , 第二個類別係係牽涉到了神經系統嘅呢啲咁嘅背痛通常都會牽涉到有腳痛啦 , 第三個裏面嘅係我哋最常見嘅裏面你聽我哋呢段片所講嘅背痛 , 呢隻叫做不特定背痛 , 其實佢有背痛嘅呢就95%都係有呢隻㗎 , 我哋所謂嘅嚴重背痛呀或者係牽涉到神經系統㗎啦係佔咗只不過係唔知道六個百分比 , 換句話說真係唯一百個人入面呢有95個都係因為不特定背痛嘅自由只有五個係因為嚴重事故或者係神經系統㗎
+ <br></br>
                                              <img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/triaage.png'} />
                                             
                                              
                                              
-                                              第一個類別我哋會叫做有特定成因嘅背痛(紅色公仔)成因包括癌症,發炎,骨折等等<br></br> 第二個類別係係牽涉到神經系統(藍色公仔).一個類別嘅背痛通常都會牽涉到有腳痛(或者啲人會叫做坐骨神經痛, 但係而家趨勢係逐漸咁樣唔用呢個字㗎喇,因為呢個字佢包含嘅意思即係話如果你要背脊以下嘅地方有痛而連背痛嘅話其實係叫做骨神經痛,呢個定義相對上比較含糊) <br></br> 第三個類別嘅係我哋最常見嘅類別(綠色公仔) , 亦都係我哋呢段片所講嘅背痛 , 呢隻叫做不特定背痛 , 係我哋最常見嘅背痛(95%) , 換句話說真係唯一百個人入面呢有95個都係因為不特定背痛嘅自由只有五個係因為嚴重事故或者係神經系統㗎 , 希望呢個數據會令到你對背痛有個更加全面嘅理解
+                                             第一個我哋會叫做嚴重嘅背痛例如，癌症啦發炎啦骨折等等㗎 , 第二個類別係係牽涉到了神經系統嘅呢啲咁嘅背痛通常都會牽涉到有腳痛啦 , 第三個裏面嘅係我哋最常見嘅裏面你聽我哋呢段片所講嘅背痛 , 呢隻叫做不特定背痛 , 其實佢有背痛嘅呢就95%都係有呢隻㗎 , 我哋所謂嘅嚴重背痛呀或者係牽涉到神經系統㗎啦係佔咗只不過係唔知道六個百分比 , 換句話說真係唯一百個人入面呢有95個都係因為不特定背痛嘅自由只有五個係因為嚴重事故或者係神經系統㗎
                                              
                 </div>
 
@@ -57,9 +56,7 @@ export default function Chin() {
 
                 <div className="Myth">誤解2 :係咪越老越容易有背痛㗎 </div>
                 <div className="image"><img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/time.png'} /></div>
-                <div className="explanantion">好多人都會覺得年紀越大,咁身體功能就下降,啲病痛就會跟住嚟 , 但係其實呢如果你乜都唔睇淨係年齡呢,
-                                            其實佢並唔係一個個好強嘅成因 , 相反更重要嘅係你嘅飲食啦你,作息時間, 主觀嘅壓力等等嘅 ,值得一提係
-                                            適當嘅治療對唔同嘅年齡層係一樣有效嘅 , 我哋想帶出嘅訊息係 單單年紀大並唔會令到你更加容易腰背痛
+                <div className="explanantion">好多人都會覺得年紀越大，身體功能就會下降，啲病痛就會跟住嚟。但係其實年齡呢唔一定係個成因，相反更重要嘅係你嘅飲食，作息時間，壓力等等嘅。值得一提係 適當嘅治療對唔同年紀的人係一樣有效嘅 , 我哋想帶出嘅訊息係，單單年紀大並唔會令你更加容易腰背痛。
             </div>
 
 
@@ -67,7 +64,7 @@ export default function Chin() {
 
 <div className="section">
 
-<div className="Myth">誤解3 :我有背痛係咪即係代表我整親咗身體邊度呀 </div>
+<div className="Myth">誤解3 :我有背痛係咪即係我條腰有事呀 </div>
 <div className="image"><img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/damage.png'} /></div>
 <div className="explanantion">一個根深蒂固嘅概念就痛等如有損害 , 十年前或者20年前或者呢個係真嘅
 但係我哋而家越嚟越多的研究講 痛呢個現象係我哋想像中更加複雜 , 但係簡單啲嚟講其實三個成因 , 第一個成因呀就係當然我哋所一直好熟識嘅所謂嘅物理上嘅痛啦, 第二個係精神上嘅
