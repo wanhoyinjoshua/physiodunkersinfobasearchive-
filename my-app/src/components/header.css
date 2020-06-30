@@ -61,6 +61,9 @@ z-index: 10000;
       display: block;
       text-align: left;
     }
+    .headword{
+        margin-top: 0px;
+    }
     .header {
         overflow: hidden;
     
