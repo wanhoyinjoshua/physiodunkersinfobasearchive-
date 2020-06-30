@@ -1,7 +1,7 @@
 .header {
     overflow: hidden;
 
-    padding: 20px 10px;
+    
     position: sticky;
     top:0px;
     background-color: white;
@@ -37,10 +37,7 @@ z-index: 10000;
 
   
   /* Change the background color on mouse-over */
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+ 
   
   /* Style the active/current link*/
   .header a.active {
@@ -78,6 +75,7 @@ z-index: 10000;
       }
       .socialmediahandles{
         width: 40px;
+        
     }
     .header-right {
       float: none;

@@ -7,7 +7,7 @@ export default function Chin() {
         <h1>Myths of back pain</h1>
         <div className="section">
 
-            <div className="Myth">誤解 :死啦我有背痛呀好大件事㗎</div>
+            <div className="Myth">Check out CHinese Version first ! English version is still being developed</div>
             <div className="image"><img className="postpic"src={process.env.PUBLIC_URL + '/assets/images/backpain.png'} /></div>
             <div className="explanantion">Relationship between pain and tissue damage is a very stubborn illusion, there can be presence of pain without physical damage and vice versa . pain is a very personalized experience. We need to understand pain is a multifactorial contract , it will be impossible to detail the exact mechanism of pain as it is still under intense research  , but in order to build on our knowledge that pain is caused by damage , we have to realize there is a east three factors contributing to your experience of pain , three is a gross understatement but it is simple enough to wrap your head around it . The first construct is what we knew as physical nociceptive input , which is what we call tissue damage , the second input is psychological , your reaction to the event have to ability fine tune your experience of pain , and the last one is the society , societal expectations on your pain behavior can in turn affect your psychological pain response .  At the end of the day , pain is nothing more than a signal to you that your environments dangerous and you need to get the heck out of there , and tissue damage is only the tip of the iceberg  there has been a lot of interesting  studies on this topic , this topic deserves its own video so stay tuned . 
             </div>

@@ -1,6 +1,11 @@
 .header{
 
 }
+.center{
+    justify-content: center;
+    width: auto
+    
+}
 .scrolup{
 
     display: block;
@@ -72,6 +77,9 @@ button:hover{
     
     font-size: 100px;
 
+}
+.blogdesccription{
+    margin-top: 30px;
 }
 
 .postblock{

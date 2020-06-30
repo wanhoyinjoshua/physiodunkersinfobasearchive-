@@ -20,8 +20,8 @@ class Bloglist extends React.Component {
             //first post 
             <div className="postblock">
                 <button className="blogpic" onClick={this.backpainmyths}>
-                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/triaage.png'} />
-                  <div className="blogdesccription">Top 10 Myths of Low Back</div>
+                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/posture.png'} />
+                  <div className="blogdesccription">Top 10 Myths of Low Back<br></br>你對背痛嘅十個誤解</div>
                 </button>
 
             </div>
@@ -32,7 +32,7 @@ class Bloglist extends React.Component {
 
             <div className="postblock">
                 <button className="blogpic" onClick={this.sayHello}>
-                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpain.png'} />
+                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/backpain.png'} />
                   <div>desciption</div>
                 </button>
 
@@ -42,7 +42,7 @@ class Bloglist extends React.Component {
             
             ,   <div className="postblock">
             <button className="blogpic" onClick={this.sayHello}>
-        <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpain.png'} />
+        <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/backpain.png'} />
         ;<div>desciption</div></button>
 
         </div>
@@ -81,6 +81,11 @@ class Bloglist extends React.Component {
       
      <div>
        <Header/>
+       <div className="center">
+       <button>All</button>
+       <button>Low back</button>
+       <button>leg</button>
+       </div>
       {render}
       <this.state.blog />
       <button onClick={this.up}className="scrolupbutton"><img className="up"src={process.env.PUBLIC_URL + '/assets/images/up.jpg'} /></button>
