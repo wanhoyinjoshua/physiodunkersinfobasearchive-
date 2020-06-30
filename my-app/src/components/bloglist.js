@@ -20,7 +20,7 @@ class Bloglist extends React.Component {
             //first post 
             <div className="postblock">
                 <button className="blogpic" onClick={this.backpainmyths}>
-                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/posture.png'} />
+                  <img className="blogpic"src={process.env.PUBLIC_URL + '/assets/images/backpainmythpost/triaage.png'} />
                   <div className="blogdesccription">Top 10 Myths of Low Back<br></br>你對背痛嘅十個誤解</div>
                 </button>
 
