@@ -1,9 +1,55 @@
+.header{
+
+}
+.scrolup{
+    background-color: yellowgreen;
+    display: block;
+    position: absolute;
+    position:sticky;
+    bottom: 0;
+    width: auto;
+    
+   
+    
+}
+button.scrolupbutton{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    position: fixed;
+    
+  bottom: 0;
+  right: 0;
+  margin-bottom: 50px;
+  margin-right: 80px;
+border-radius: 50%;
+
+
+
+    
+   
+}
+.up{
+    background-position: center;
+    max-width:100%;
+max-height:100%;
+height: auto;
+    
+}
+.title{
+    margin-top: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+}
+
 .blogpic{
     width:80%;
     margin:auto 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 
 
 }
@@ -20,12 +66,17 @@ button:hover{
 .logo{
     width:40%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    
     display: block;
     margin-left: 10%;
     
     font-size: 100px;
 
+}
+
+.postblock{
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 @media only screen and (max-width: 600px) {
     .logo {
@@ -35,10 +86,14 @@ button:hover{
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
-        margin-bottom: 50px;
+        
         font-size: 30px;
         text-decoration: underline;
     
+    }
+    .postblock{
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
     .blogpic{
         width:100%;
@@ -48,6 +103,18 @@ button:hover{
         margin-right: auto;
     
     
+    }
+    button.scrolupbutton{
+        width: auto;
+        position: absolute;
+        position: fixed;
+      bottom: 0;
+      right: 0;
+      margin-bottom: 20px;
+      margin-right: 20px;
+    
+        
+       
     }
   }
 

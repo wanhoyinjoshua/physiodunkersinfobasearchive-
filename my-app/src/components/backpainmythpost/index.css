@@ -5,7 +5,7 @@
 }
 .section{
     
-    background-color: whitesmoke;
+    
 }
 .textalign{
     
@@ -20,6 +20,35 @@
 
 
 }
+
+.explanantion{
+    font-size: 30px;
+    line-height: 70px;
+}
+.inlinepic{
+    width:55%;
+
+}
+.margintoplan{
+    margin-top: 100px;
+    
+    
+    
+}
+.lan{
+    float: right;
+    font-weight: 800;
+}
+.Myth{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 600;
+}
 @media only screen and (max-width: 600px) {
     .postpic {
         width:100%;
@@ -30,9 +59,21 @@
         font-size: 50px;
     
     }
+    .lan{
+        display: block;
+        
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: larger;
+    }
     .center{
         margin-right: auto;
+        clear: both;
         margin-left: auto;
         width: 90%;
+    }
+    .explanantion{
+        font-size: 25px;
+        line-height: 50px;
     }
   }

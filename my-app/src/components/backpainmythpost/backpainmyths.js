@@ -30,6 +30,10 @@ class Buttonlist extends React.Component {
       this.setState({render:<Eng/>})
 
     }
+    componentDidMount(){
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
     
     render() {
       var lanversion = this.state.render
@@ -40,11 +44,11 @@ class Buttonlist extends React.Component {
      <div>
        
        <React.Fragment>
-         <div className="center">
+         <div className="center margintoplan">
 
        
-       <button className=""onClick={this.changelaneng}>Eng</button>
-       <button className=""onClick={this.changelanchin}>Chin</button>
+       <button className="lan"onClick={this.changelaneng}>Eng </button>
+       <button className="lan"onClick={this.changelanchin}>中</button>
        </div>
      
     </React.Fragment>
